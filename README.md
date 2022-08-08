@@ -16,3 +16,18 @@ project
   - 테스트 컨트롤러 생성
   - vue.config.js 수정
 
+- react로 수정
+- 프로젝트 삭제
+```cmd
+npm install create-react-app
+npx create-react-app frontend --template=typescript
+cd frontend
+npm install --save react-router-dom
+npm install --save-dev @types/react-router-dom
+```
+
+- react proxy 설정
+```cmd
+npm install http-proxy-middleware
+```
+
